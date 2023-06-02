@@ -1,6 +1,6 @@
 # SJTU 本科生毕业论文模板
 
-该模板改自sjtug的官方[SJTUThesis](https://github.com/sjtug/SJTUThesis)模板。参考了[最新版规定](04-2023-05-30-2023年本科生毕业论文形式规范解读.pdf)做了下列更改。
+该模板改自sjtug的官方[SJTUThesis](https://github.com/sjtug/SJTUThesis)模板。参考了[最新版规定](04-2023-05-30-2023年本科生毕业论文形式规范解读.pdf)做了下述更改。如果有更多的问题，欢迎反馈到官方的[issues](https://github.com/sjtug/SJTUThesis/issues)或此repo。
 
 ## 更改
 
@@ -37,3 +37,10 @@
 1. 添加摘要和ABSTRACT。
 
     添加`\addcontentsline{toc}{chapter}{摘要}`以及`\addcontentsline{toc}{chapter}{ABSTRACT}`。详见discussion [#942](https://github.com/sjtug/SJTUThesis/discussions/942).
+
+
+## 致谢
+
+感谢maintainer [LogCreative](https://github.com/LogCreative)的细心答复。
+
+感谢[Megumism](https://github.com/Megumism)，[pixas](https://github.com/pixas)在提出的问题。
