@@ -34,7 +34,7 @@
     subject          .initial:x =
       {
         \exp_not:V \c__sjtu_name_univ_zh_tl
-        \exp_not:V \c__sjtu_name_degree_level_zh_tl
+        % \exp_not:V \c__sjtu_name_degree_level_zh_tl
         \exp_not:V \c__sjtu_name_thesis_zh_tl
       }
   }
@@ -111,11 +111,11 @@
                 \l__sjtu_info_supervisors_clist ,
                 department,
                 major,
-                \int_compare:nNnF { \g__sjtu_thesis_type_int } = { 1 }
+                % \int_compare:nNnF { \g__sjtu_thesis_type_int } = { 1 }
                   { degree }
               }
               {
-                \__sjtu_cjk_spread_box:nn { 5 em } { \heiti #1 }
+                \__sjtu_cjk_spread_box:nn { 6.5 em } { \heiti #1 }
                 \c__sjtu_name_info_sep_zh_tl
                 \__sjtu_left_aligned_box:nn {#2} {#3}
               }
