@@ -1,6 +1,6 @@
-# SJTU 本科生毕业论文模板
+# SJTU 2023本科生毕业论文模板
 
-该模板改自sjtug的官方[SJTUThesis](https://github.com/sjtug/SJTUThesis)模板。参考了[最新版规定](04-2023-05-30-2023年本科生毕业论文形式规范解读.pdf)做了下述更改。如果有更多的问题，欢迎反馈到官方的[issues](https://github.com/sjtug/SJTUThesis/issues)或此repo。
+该模板改自sjtug的官方[SJTUThesis](https://github.com/sjtug/SJTUThesis)模板。参考了[2023年最新版规定](04-2023-05-30-2023年本科生毕业论文形式规范解读.pdf)做了下述更改。如果有更多的问题，欢迎反馈到官方的[issues](https://github.com/sjtug/SJTUThesis/issues)或此repo。
 
 ## 更改
 
