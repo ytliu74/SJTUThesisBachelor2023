@@ -10,6 +10,10 @@
 
     `main.tex`中添加`oneside`设置。
 
+2. 摘要、英文摘要、目录、英文大摘要的页眉不需要表明。
+
+    详见issue [#953](https://github.com/sjtug/SJTUThesis/discussions/953)
+
 ### 封面
 
 1. 修改“上海交通大学学士学位论文”为“上海交通大学学位论文”。
