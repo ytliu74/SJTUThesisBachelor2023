@@ -38,9 +38,30 @@
 
     添加`\addcontentsline{toc}{chapter}{摘要}`以及`\addcontentsline{toc}{chapter}{ABSTRACT}`。详见discussion [#942](https://github.com/sjtug/SJTUThesis/discussions/942).
 
+2. 缩进。
+    感谢水源大佬的[帖子](https://shuiyuan.sjtu.edu.cn/t/topic/166804).
+
+    根据学校要求：
+    >章目录：宋体四号,单倍行距，页码右对齐。
+    >小节目录：宋体小四号，单倍行距，左缩进1个汉字符，两端对齐，页码右对齐。
+    >二级小节目录：宋体五号,单倍行距，左缩进2个汉字符，两端对齐，页码右对齐。
+
+    添加：
+    ```latex
+    \setlength{\cftsecindent}{1em}
+    \setlength{\cftsubsecindent}{2em}
+    ```
+
+### 参考文献
+
+1. 参考文献题目格式需修改为“黑体，加粗，三号，居中，每字空一格”。
+
+    在`setup.tex`96行编辑`bib = {参\hspace{\ccwd}考\hspace{\ccwd}文\hspace{\ccwd}献},`
 
 ## 致谢
 
 感谢maintainer [LogCreative](https://github.com/LogCreative)的细心答复。
+
+感谢水源大佬[蝉时雨的帖子](https://shuiyuan.sjtu.edu.cn/t/topic/166804).
 
 感谢[Megumism](https://github.com/Megumism)，[pixas](https://github.com/pixas)在提出的问题。
